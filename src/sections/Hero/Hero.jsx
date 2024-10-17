@@ -25,7 +25,9 @@ function Hero() {
           <a>github </a>
           <a>LinkedIn </a>
         </span>
-        <p>Interested in machine learning and web development</p>
+        <p className={styles.description}>
+          Interested in machine learning and web development
+        </p>
         <a download>
           <button className="hover">Resume</button>
         </a>
